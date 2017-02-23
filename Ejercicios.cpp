@@ -45,3 +45,56 @@ int cantidad(int x, string s)
 }
 */
 
+int main(int argc, char const *argv[])
+{
+	int ocho[7], x, y, contx = 0, conty = 0, posx[], posy[];
+	bool xb = false, yb - false;
+	for (int i = 0; i <= 7; ++i)
+	 {
+	 	printf("Ingrese valor: ");
+	 	scanf("%d", &ocho[i]);
+	 } 
+	printf("Ingrese valor x: ");
+	scanf("%d", &x);
+	printf("Ingrese valor y: ");
+	scanf("%d", &y);
+	for (int i = 0; i <= 7; ++i)
+	{
+		if (x == ocho[i])
+		{
+			contx++;
+			posx[contx] = i;
+			xb = true;
+		}
+	}
+	for (int i = 0; i <= 7; ++i)
+	{
+		if (y == ocho[i])
+		{
+			conty++;
+			posy[conty] = i;
+			yb = true;
+		}
+	}
+	if (xb == true)
+	{
+		printf("El numero que se repite es: %d\n", x);
+		printf("Se repite %d veces\n", contx);
+		printf("En las posiciones: \n");
+		for (int i = 0; i <= contx; ++i)
+		{
+			printf("%d\n", posx[i]);
+		}
+	}
+	if (yb == true)
+	{
+		printf("El numero que se repite es: %d\n", y);
+		printf("Se repite %d veces\n", conty);
+		printf("En las posiciones: \n");
+		for (int i = 0; i <= conty; ++i)
+		{
+			printf("%d\n", posy[i]);
+		}
+	}
+	return 0;
+}
