@@ -45,6 +45,9 @@ int cantidad(int x, string s)
 }
 */
 
+// Ejercicio 3
+
+/*
 int main(int argc, char const *argv[])
 {
 	int ocho[7], x, y, contx = 0, conty = 0, posx[], posy[];
@@ -98,3 +101,4 @@ int main(int argc, char const *argv[])
 	}
 	return 0;
 }
+*/
