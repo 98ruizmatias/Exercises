@@ -3,17 +3,17 @@
 // Ejercicio 1
 
 /*  
-int x, y, base, exp;
 
 int main(int argc, char const *argv[])
 {
+	int x, y, base, exp;
 	printf("Ingrese la base: ");
 	scanf("%d", &x);
 	printf("Ingrese el exponente: ");
 	scanf("%d", &y);
 	base = x;
 	exp = y;
-	for (int i = 0; i < exp; ++i)
+	for (int i = 0; i <= exp; ++i)
 	{
 		base = base * x;
 	}
@@ -26,4 +26,22 @@ int main(int argc, char const *argv[])
 
 // Ejercicio 2
 
+/*
+int cantidad(int x, string s)
+{
+
+	int n = 0;
+	for (int i = 0; i <= s.length; ++i)
+	{
+		n++;
+	}
+	if ( n == x)
+		{
+			return true;
+		}
+	else {
+			return false;
+		}
+}
+*/
 
