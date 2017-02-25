@@ -105,6 +105,7 @@ int main(int argc, char const *argv[])
 
 //Ejercicio 4
 
+/*
 int main(int argc, char const *argv[])
 {
 	int depto[19][5], sum = 0, sumpp[19], promp[19];
@@ -140,4 +141,36 @@ int main(int argc, char const *argv[])
 		printf("\n El promedio de habitates en el piso %d es de el:%d porciento.", i, promp[i]);
 	}
 	return 0;
+}
+
+*/
+
+//Ejercicio 5
+
+int recibo(int x, int y)
+{
+	printf("\n Ingrese Valor: ");
+	scanf("%d", &x);
+	printf("\n Ingrese Valor: ");
+	scanf("%d", &y);
+	return x, y;
+}
+
+int resta(int num, int den)
+{
+	int rest, x;
+	rest = num;
+	while(x == 1)
+	{
+		x == 1;
+		if ( rest > dem)
+		{
+			rest = rest - dem;
+		}
+		else
+		{
+			x == 0;
+		}
+	}
+	return rest;
 }
