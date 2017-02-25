@@ -102,3 +102,42 @@ int main(int argc, char const *argv[])
 	return 0;
 }
 */
+
+//Ejercicio 4
+
+int main(int argc, char const *argv[])
+{
+	int depto[19][5], sum = 0, sumpp[19], promp[19];
+	for (int i = 0; i < 20; ++i)
+	{
+		for (int j = 0; j < 6; ++j)
+		{
+			printf("\nIngrese cantidad de personas que viven en el departamento %d del piso %d: ",j, i );
+			scanf("%d", &depto[i][j]);
+		}
+	}
+	for (int i = 0; i < 20; ++i)
+	{
+		for (int j = 0; j < 6; ++j)
+		{
+			sum = sum + depto[i][j];
+		}
+	}
+	for (int i = 0; i < 20; ++i)
+	{
+		for (int j = 0; j < 6; ++j)
+		{
+			sumpp[i] = sumpp[i] + depto[i][j];
+		}
+	}
+	for (int i = 0; i < 20; ++i)
+	{
+		promp[i] = sumpp [i] / sum;
+	}
+	printf("\n El total de habitantes en el edificio es: %d", sum);
+	for (int i = 0; i < 20; ++i)
+	{
+		printf("\n El promedio de habitates en el piso %d es de el:%d porciento.", i, promp[i]);
+	}
+	return 0;
+}
