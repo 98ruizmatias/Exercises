@@ -147,6 +147,7 @@ int main(int argc, char const *argv[])
 
 //Ejercicio 5
 
+/*
 int recibo(int x, int y)
 {
 	printf("\n Ingrese Valor: ");
@@ -173,4 +174,17 @@ int resta(int num, int den)
 		}
 	}
 	return rest;
+}
+*/
+
+//Ejercicio 7
+
+int potencia(int n)
+{
+	int r;
+	for (int i = 0; i < n; ++i)
+	{
+		r = ( ( i * 2 ) + 1) + r;
+	}
+	return r;
 }
