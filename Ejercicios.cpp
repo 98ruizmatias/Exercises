@@ -179,6 +179,7 @@ int resta(int num, int den)
 
 //Ejercicio 7
 
+/*
 int potencia(int n)
 {
 	int r;
@@ -188,3 +189,5 @@ int potencia(int n)
 	}
 	return r;
 }
+
+*/
